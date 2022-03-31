@@ -22,6 +22,10 @@ p {
   margin: 1rem auto;
 }
 
+button:hover {
+  opacity: 0.8;
+}
+
 @media only screen and (max-width: 400px) {
   .container {
     color: white;
@@ -242,6 +246,9 @@ p {
   }
   header .logo-img {
     width: 100px;
+  }
+  header .hero-img {
+    width: 100%;
   }
   header button {
     background-color: #41b3d2;
