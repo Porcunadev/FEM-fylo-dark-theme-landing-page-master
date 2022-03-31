@@ -1,0 +1,29 @@
+$Dark-blue:hsl(217, 28%, 15%);
+$white:white;
+$neon:hsl(176, 68%, 64%);
+$cyan:hsl(193deg 62% 54%);
+$testimonials-dark-blue:hsl(219, 30%, 18%);
+$Open-sans:'Open Sans', sans-serif;
+$Raleway:'Raleway', sans-serif;
+* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    font-family: $Raleway;
+    font-weight: 400;
+}
+h2{   
+    margin:1rem auto;
+    font-family: $Raleway;
+    line-height:1.5;            
+}
+
+p {
+    font-family: $Open-sans;
+    line-height:1.5;  
+    max-width:35ch;
+    text-align: center;
+    margin:1rem auto;
+}
