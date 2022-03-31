@@ -8,6 +8,11 @@ a {
   font-weight: 400;
 }
 
+a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
 h2 {
   margin: 1rem auto;
   font-family: "Raleway", sans-serif;
@@ -23,7 +28,7 @@ p {
 }
 
 button:hover {
-  opacity: 0.8;
+  background-color: #a5daeb;
 }
 
 @media only screen and (max-width: 400px) {
@@ -366,6 +371,9 @@ button:hover {
     border-radius: 5rem;
     margin-top: 1rem;
     border: none;
+  }
+  .form-section button:hover {
+    background-color: #a5daeb;
   }
 
   footer {

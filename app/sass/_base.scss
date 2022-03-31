@@ -14,6 +14,10 @@ a {
     font-family: $Raleway;
     font-weight: 400;
 }
+a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
 h2{   
     margin:1rem auto;
     font-family: $Raleway;
@@ -29,5 +33,5 @@ p {
 }
 
 button:hover {
-    opacity: .8;    
+    background-color:rgb(165, 218, 235);
 }
