@@ -202,4 +202,217 @@
     }
 }
 
+ @media only screen and (min-width: 401px) {
+    .container {
+        margin:0 auto;
+        max-width: 1200px;
+        color: base.$white;
+        background-color: base.$Dark-blue;
+        padding: 0 1.5rem;
+        height: 100%;
+    }
     
+    p {
+        font-size: 1em;
+    }
+    
+    header {
+        margin-bottom: 7rem;
+        text-align: center;
+    
+        nav {
+            padding: 2rem 0;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        ul {
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+    
+            li {
+                margin-right: 1rem;
+    
+                a {
+                    font-size: 1em;
+                    color: base.$white;
+                    text-decoration: none;
+                }
+            }
+    
+        }
+    
+        .logo-img {
+            width: 100px;
+        }
+    
+        button {
+            background-color: base.$cyan;
+            color: base.$white;
+            width: 70%;
+            padding: 1rem;
+            border-radius: 5rem;
+            margin-top: 1rem;
+            border: none;
+        }
+    
+    }
+    
+    
+    .features-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:1rem;
+        margin-bottom: 5rem;
+
+    
+        img {
+            margin-bottom: 3rem;
+    
+        }
+    
+        p {
+            max-width: 40ch;
+        }
+    
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
+    
+    }
+    
+    
+    .info-section {
+        margin-bottom: 7rem;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        .info-img {
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+    
+        p {
+            text-align: start;
+            margin: 1rem 0;
+            max-width: 40ch;
+    
+            a {
+                color: base.$neon;
+            }
+        }
+    
+    }
+    
+    .quote-img {
+        width: 20px;
+        position: relative;
+        top: 5px;
+        left: 3rem;
+    }
+    
+    .testimonials-section {
+        margin-bottom: 7rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 1.5rem;
+        justify-items: center;
+    
+    
+        div {
+            background-color: base.$testimonials-dark-blue;
+            border-radius: .5rem;
+            width: 75%;
+        }
+    
+        section {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+    
+            aside {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    
+        p {
+            margin-top: 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            max-width: 40ch;
+        }
+    
+        img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: .5rem;
+        }
+    }
+    
+    .form-section {
+        background-color: base.$testimonials-dark-blue;
+        text-align: center;
+        padding: 2rem 0;
+        width:75%;
+        margin:0 auto;
+    
+        form {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;    
+        }
+    
+        input {
+            width: 55%;
+            padding: 1rem;
+            border-radius: 5rem;
+            margin-top: 1rem;
+            border: none;
+        }
+    
+        button {
+            background-color: base.$cyan;
+            color: base.$white;
+            width: 25%;
+            padding: 1rem;
+            border-radius: 5rem;
+            margin-top: 1rem;
+            border: none;
+        }
+    }
+    
+    footer {
+        margin-top: 4rem;
+        display:grid;
+        grid-template-columns:repeat(6, 1fr);
+        align-items: center;
+        grid-column-gap: 1.5rem;
+        .footer-a {
+            display: flex;
+            align-items: center;
+            padding: .5rem 0;
+        }
+    
+        img {
+            margin-right: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }    
+    
+        li {
+            list-style: none;
+            margin-bottom: .5rem;
+        }
+    
+        a {
+            color: base.$white;
+            text-decoration: none;
+        }
+    }
+ } 

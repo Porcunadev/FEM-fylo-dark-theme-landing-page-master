@@ -204,5 +204,188 @@ p {
     text-decoration: none;
   }
 }
+@media only screen and (min-width: 401px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    color: white;
+    background-color: #1c2431;
+    padding: 0 1.5rem;
+    height: 100%;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  header {
+    margin-bottom: 7rem;
+    text-align: center;
+  }
+  header nav {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  header ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  header ul li {
+    margin-right: 1rem;
+  }
+  header ul li a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+  }
+  header .logo-img {
+    width: 100px;
+  }
+  header button {
+    background-color: #41b3d2;
+    color: white;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    border: none;
+  }
+
+  .features-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin-bottom: 5rem;
+  }
+  .features-section img {
+    margin-bottom: 3rem;
+  }
+  .features-section p {
+    max-width: 40ch;
+  }
+  .features-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .info-section {
+    margin-bottom: 7rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .info-section .info-img {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .info-section p {
+    text-align: start;
+    margin: 1rem 0;
+    max-width: 40ch;
+  }
+  .info-section p a {
+    color: #65e2d9;
+  }
+
+  .quote-img {
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 3rem;
+  }
+
+  .testimonials-section {
+    margin-bottom: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1.5rem;
+    justify-items: center;
+  }
+  .testimonials-section div {
+    background-color: #202a3c;
+    border-radius: 0.5rem;
+    width: 75%;
+  }
+  .testimonials-section section {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  .testimonials-section section aside {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials-section p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 40ch;
+  }
+  .testimonials-section img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+  }
+
+  .form-section {
+    background-color: #202a3c;
+    text-align: center;
+    padding: 2rem 0;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .form-section form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+  }
+  .form-section input {
+    width: 55%;
+    padding: 1rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    border: none;
+  }
+  .form-section button {
+    background-color: #41b3d2;
+    color: white;
+    width: 25%;
+    padding: 1rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    border: none;
+  }
+
+  footer {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    grid-column-gap: 1.5rem;
+  }
+  footer .footer-a {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  footer img {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  footer li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
